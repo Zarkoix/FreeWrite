@@ -5,14 +5,14 @@ import IconButton from 'material-ui/IconButton'
 import DashboardIcon from 'material-ui/svg-icons/action/dashboard'
 import FullscreenIcon from 'material-ui/svg-icons/navigation/fullscreen'
 import ExitFullscreenIcon from 'material-ui/svg-icons/navigation/fullscreen-exit'
-import Chip from 'material-ui/Chip'
-import Avatar from 'material-ui/Avatar'
 
-import EditTitle from './components/title'
 
 import FreeWriteTheme from './theme'
 import './App.css'
-import EditBody from './components/body/index'
+import EditTitle from './components/title'
+import EditBody from './components/body'
+import Signature from './components/signature'
+
 
 const theme = {
 
@@ -78,7 +78,7 @@ class App extends Component {
             showMenuIconButton={false}
           />
           <div className="AppContainer" style={this.getStyle()}>
-            <EditTitle/>
+            <EditTitle />
             <div className="settingsBar" >
               <span className="setting__font" style={!this.state.isSerif ?
                   {
@@ -98,19 +98,9 @@ class App extends Component {
                   <FullscreenIcon style={styles.settings.editorWidth.svg} color="#888" /> }
               </span>
             </div>
-            <EditBody/>
+            <EditBody />
           </div>
-          <Chip onClick={() => window.location = 'https://atowers.info'} labelColor='#424242' style={{
-            position: 'absolute',
-            right: '0',
-            bottom: '0',
-            margin: '1em',
-          }} className="revivalModern" >
-            <Avatar src="https://atowers.info/routes/root/graphics/graphic.png" style={{
-              backgroundColor: 'black'
-            }} />
-            Adam Towers
-          </Chip>
+          <Signature />
         </div>
       </MuiThemeProvider>
     )
