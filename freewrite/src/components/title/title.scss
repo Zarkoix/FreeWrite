@@ -1,0 +1,20 @@
+h4 {
+  text-align: center;
+  color: #424242;
+  font-size: 3em;
+  margin: 0;
+  transition: margin 0.2s;
+}
+
+h4:focus {
+  border: none;
+  margin: 1.5rem 0;
+}
+
+.titlePaper {
+  transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms
+}
+
+.titlePaper:focus {
+  border: none;
+}

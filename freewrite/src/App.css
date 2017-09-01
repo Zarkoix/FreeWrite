@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'RevivalModern';
+  src: url("fonts/Revival/RevivalModern.woff") format("woff"); }
+@font-face {
+  font-family: 'RevivalGothic';
+  src: url("fonts/Revival/RevivalGothic.woff") format("woff"); }
+.background {
+  height: 100%;
+  background: url(graphics/stardust.png) repeat 0 0; }
+
+.AppContainer {
+  transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+  transition-property: width, margin, padding; }
+
+.revivalModern {
+  font-family: 'RevivalModern' !important; }
+
+.revivalGothic {
+  font-family: 'RevivalGothic' !important; }
+
+.settingsBar {
+  color: #888;
+  margin: 10px 0;
+  font-size: 16px;
+  width: 100%;
+  text-align: center; }
+
+.setting, .setting__font, .setting__fontSize, .setting__editorWidth {
+  user-select: none;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 2px;
+  margin: 0 4px;
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  vertical-align: middle; }
+
+blockquote {
+  border-left-width: 4px;
+  border-left-color: #424242;
+  border-left-style: solid;
+  padding-left: 4px; }
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 25px;
+  top: 12.5px; }
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+/*# sourceMappingURL=App.css.map */
