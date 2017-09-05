@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3dc8ad8-d189-46f1-8bf9-fa99d59ca9c7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/FreeWrite.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/npm-debug.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/freewrite/package.json" afterPath="$PROJECT_DIR$/freewrite/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,10 +21,11 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/freewrite/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+            <state relative-caret-position="795">
+              <caret line="53" column="4" lean-forward="false" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
               <folding>
-                <marker date="1504650847000" expanded="true" signature="608:613" ph="{&quot;start&quot;: &quot;react-scripts start&quot;...}" />
+                <marker date="1504651091000" expanded="true" signature="84:91" ph="{&quot;draft-js&quot;: &quot;^0.10.1&quot;...}" />
+                <marker date="1504651091000" expanded="true" signature="2633:2638" ph="{&quot;start&quot;: &quot;react-scripts start&quot;...}" />
               </folding>
             </state>
           </provider>
@@ -56,8 +54,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            <state relative-caret-position="60">
+              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -189,12 +187,12 @@
       <workItem from="1504649753772" duration="174000" />
       <workItem from="1504650093886" duration="189000" />
       <workItem from="1504650351331" duration="64000" />
-      <workItem from="1504650418545" duration="462000" />
+      <workItem from="1504650418545" duration="605000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2329000" />
+    <option name="totallyTimeSpent" value="2472000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -250,7 +248,8 @@
         <state relative-caret-position="420">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
-            <marker date="1504650847000" expanded="true" signature="608:613" ph="{&quot;start&quot;: &quot;react-scripts start&quot;...}" />
+            <marker date="1504651091000" expanded="true" signature="84:91" ph="{&quot;draft-js&quot;: &quot;^0.10.1&quot;...}" />
+            <marker date="1504651091000" expanded="true" signature="2633:2638" ph="{&quot;start&quot;: &quot;react-scripts start&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -268,7 +267,8 @@
         <state relative-caret-position="420">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
-            <marker date="1504650847000" expanded="true" signature="608:613" ph="{&quot;start&quot;: &quot;react-scripts start&quot;...}" />
+            <marker date="1504651091000" expanded="true" signature="84:91" ph="{&quot;draft-js&quot;: &quot;^0.10.1&quot;...}" />
+            <marker date="1504651091000" expanded="true" signature="2633:2638" ph="{&quot;start&quot;: &quot;react-scripts start&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -286,7 +286,8 @@
         <state relative-caret-position="405">
           <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
-            <marker date="1504650847000" expanded="true" signature="608:613" ph="{&quot;start&quot;: &quot;react-scripts start&quot;...}" />
+            <marker date="1504651091000" expanded="true" signature="84:91" ph="{&quot;draft-js&quot;: &quot;^0.10.1&quot;...}" />
+            <marker date="1504651091000" expanded="true" signature="2633:2638" ph="{&quot;start&quot;: &quot;react-scripts start&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -304,7 +305,8 @@
         <state relative-caret-position="345">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
-            <marker date="1504650847000" expanded="true" signature="608:613" ph="{&quot;start&quot;: &quot;react-scripts start&quot;...}" />
+            <marker date="1504651091000" expanded="true" signature="84:91" ph="{&quot;draft-js&quot;: &quot;^0.10.1&quot;...}" />
+            <marker date="1504651091000" expanded="true" signature="2633:2638" ph="{&quot;start&quot;: &quot;react-scripts start&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -322,7 +324,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1504650847000" expanded="true" signature="608:613" ph="{&quot;start&quot;: &quot;react-scripts start&quot;...}" />
+            <marker date="1504651091000" expanded="true" signature="84:91" ph="{&quot;draft-js&quot;: &quot;^0.10.1&quot;...}" />
+            <marker date="1504651091000" expanded="true" signature="2633:2638" ph="{&quot;start&quot;: &quot;react-scripts start&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -345,18 +348,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/freewrite/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        <state relative-caret-position="795">
+          <caret line="53" column="4" lean-forward="false" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
           <folding>
-            <marker date="1504650847000" expanded="true" signature="608:613" ph="{&quot;start&quot;: &quot;react-scripts start&quot;...}" />
+            <marker date="1504651091000" expanded="true" signature="84:91" ph="{&quot;draft-js&quot;: &quot;^0.10.1&quot;...}" />
+            <marker date="1504651091000" expanded="true" signature="2633:2638" ph="{&quot;start&quot;: &quot;react-scripts start&quot;...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
         </state>
       </provider>
